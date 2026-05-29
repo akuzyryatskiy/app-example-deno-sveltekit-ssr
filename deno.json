@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:@sveltejs/kit sync && deno run -A npm:vite build",
+    "start": "deno run -A npm:serve -s build -l 8000"
+  }
+}
